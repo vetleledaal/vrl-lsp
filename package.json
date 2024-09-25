@@ -23,7 +23,15 @@
 				"id": "vrl",
 				"extensions": [
 					".vrl"
-				]
+				],
+				"configuration": "./client/language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "vrl",
+				"scopeName": "source.vrl",
+				"path": "./client/syntaxes/vrl.tmLanguage.json"
 			}
 		]
 	},
